@@ -19,7 +19,6 @@ h1 {
   height: 20px;
   background-color: #484B5B;
   border-radius: 10px;
-
 }
 
 .progress {
@@ -27,7 +26,7 @@ h1 {
   height: 100%;
   background-color: #07BEB8;
   border-radius: 10px;
-  transition: widht 1s ease-in-out;
+  transition: width 1s ease-in-out;
 }
 
 .controls {
