@@ -1,0 +1,66 @@
+body {
+  background-color: #25283D;
+  color: #fff;
+}
+
+
+h1 {
+  font-family: 'IBM Plex Mono';
+  text-align: center;
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #484B5B;
+  border-radius: 10px;
+
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #07BEB8;
+  border-radius: 10px;
+  transition: widht 1s ease-in-out;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: .4rem 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #07BEB8;
+  color: #25283D;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 2px solid #07BEB8;
+  cursor: pointer;
+  transition: .4s;
+}
+
+button i {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+#previous-btn {
+  background-color: transparent;
+  color: #07BEB8;
+}
+
+button:hover,
+#previous-btn:hover {
+  background-color: #058A86;
+  color: #fff;
+}
